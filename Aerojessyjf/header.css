@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size:16px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+svg {
+  justify-content: flex-start;
+  align-items: center;
+  height: 100px;
+  width: 20%;
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  /*margin-right: 50px;*/
+  height: 80px;
+  width: 65%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #ff7b59;
+}
+
+.footer {
+  display: flex;
+  background-color:#131313 ;  /*#131313   #02122c*/
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  /* margin-top: ; */
+}
+
+h2 {
+  margin: 20px auto;
+}
+
+.about,
+.social,
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: #ff7b59;
+  gap: 0.7rem;
+}

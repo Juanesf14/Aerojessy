@@ -1,0 +1,99 @@
+/* *{
+	margin: 0px;
+	font-family: "Verdana";
+	color:white;
+} */
+*{
+	color:white;
+}
+
+.flight-details-box{
+	background-color:  #02122c;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	height: 250px;
+	margin:100px auto;
+
+}
+
+.flight-form{
+	/* display: grid; */
+	width:70%;
+	margin:20px;
+	color: white;
+	/* grid-gap: 20px 10px; */
+}
+
+form{
+	height: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	/* text-align: center; */
+}
+
+.flight-detail{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+.search-flight-btn{
+	display: block;
+	background-color: #ff7b59;
+	font-size: 20px;
+	margin:auto;
+	color: white;
+	border:1px white solid;
+	border-radius: 5px;
+
+}
+
+
+.inp p{
+	margin-bottom:5px;
+	/* color:#f06d4d; */
+}
+
+input[type=date]{
+	width:150px;
+	
+	font-weight: 500;
+	font-size:14px;
+}
+
+
+
+input{
+    background-color: transparent;
+    border: 0px solid;
+	height: 30px;
+    padding:8px 2px;
+    border-bottom: 3px solid #ff7b59;
+    font-weight: 600;
+    font-size:16px;
+}
+
+input:hover{
+	background-color: transparent;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color:white;
+	font-weight: 500;
+	font-size:14px;	
+	opacity: 0.5; /* Firefox */
+  }
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.error{
+	color:red;
+	text-align:center;
+}
+

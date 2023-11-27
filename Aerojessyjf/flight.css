@@ -1,0 +1,106 @@
+form{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.search-details-container, .search-display-container{
+    margin:5vh auto;
+    width:80%;
+}
+
+.field-container{
+    margin: auto;
+    width: 100%;
+    background-color: #e9e9eb;
+    padding:5vh 0vw;
+    box-shadow: 3px 3px 3px #21324d;
+}
+
+.search-display-container{
+    margin-top: 10vh;
+}
+
+h3,hr{
+    text-align: center;
+    color:#02122c;
+}
+
+hr{
+    width: 30%;
+    margin:1vh auto;
+}
+
+
+input{
+    background-color: transparent;
+    border: 0px solid;
+    padding:8px 2px;
+    border-bottom: 3px solid #ff7b59;
+    font-weight: 600;
+    color: #02122c;
+    font-size:16px;
+}
+
+input:hover{
+    border-color: #f06d4d;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button{
+    padding:15px 25px;
+    background-color: #02122c;
+    color:white;
+    border:none;
+    margin-top:5px;
+    
+    font-size:16px;
+    border-radius: 4px;
+}
+
+.flight-container{
+    display: flex;
+    /* width: 80%; */
+    /* height: 40px; */
+    justify-content: space-between;
+    margin-top:3vh;
+}
+
+.flight-details, .flight-booking-details{
+    height: 70px;
+    border-radius:5px;
+    display: flex;
+}
+
+.flight-details{
+    flex:4;
+    margin-right:5px;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-right:40px;
+    align-items: center;
+}
+
+.city{
+    font-size:20px;
+}
+
+
+.departure_detail{
+    text-align: center;
+}
+
+.flight-booking-details{
+    flex:1;
+    flex-direction: column;
+    text-align: center;  
+    /* justify-self: space-evenly; */
+}
+
+.price{
+    font-weight: bold;
+    font-size:20px;
+    
+}
